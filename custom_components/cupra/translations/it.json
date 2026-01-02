@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Collega il tuo account CUPRA",
+        "description": "Accedi con le stesse credenziali usate nell'app My CUPRA.",
+        "data": {
+          "username": "Email",
+          "password": "Password",
+          "region": "Regione (es. eu)"
+        }
+      },
+      "select_vehicle": {
+        "title": "Seleziona veicolo",
+        "description": "Scegli quale auto CUPRA associare a Home Assistant",
+        "data": {
+          "vin": "VIN"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi, controlla le credenziali o la rete",
+      "no_vehicle": "Nessun veicolo trovato per questo account"
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "title": "Opzioni CUPRA",
+        "data": {
+          "scan_interval": "Intervallo aggiornamento (secondi, minimo 60)"
+        }
+      }
+    }
+  }
+}
